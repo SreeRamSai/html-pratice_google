@@ -3,29 +3,41 @@
 <head>
 	<meta charset="utf-8">
 	<title>Google home page</title>
-	
 	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body>
 <div class=container>
-	<div class=logo>
-		<img src="img.png">
+
+	<div >
+		<a href=""><img class=logo src="img.png"></a>
 	</div>
+
 	<div class="search_area">
-		<center>
-			<div>
-				<input type="search" name="search-bar">
+
+		<div class=searchbar>
+
+			<div class =search>
+				<input type="text">
 			</div>
+			
 			<div class="mic">
 				<a href=""><img class=mic-image src="mic.png"></a>
 			</div>
-		</center>
-		<center>
-			<input type="submit" name="search">
-			<input type="submit" name="I'm feeling lucky">
-		</center>
+
+		</div>
+
+		<div>
+
+			<div id="search-buttons">
+				<a class="click-to-search" href="">Google Search</a>	
+				<a class="click-to-search" href="">I'm feeling lucky</a>
+			</div>
+
+		</div>
+
 	</div>
+
 </div>
 </body>
 </html>
