@@ -48,10 +48,13 @@ a.click-to-search:hover {
 .search input{
 	float:left;
 	padding-top: 5px;
+	padding-bottom: 4PX;
 	padding-left: 10px;
 	width: 70%;
-	height: 42px;
+	height: 33px;
+	line-height: 20px;
 	border:none;
+	font-size: 16PX;
 }
 
 .search input:focus{
